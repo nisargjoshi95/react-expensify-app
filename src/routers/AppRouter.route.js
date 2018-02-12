@@ -25,7 +25,7 @@ const Header = () => pug`
     NavLink(to='/edit', activeClassName='is-active') Edit Expense
     NavLink(to='/help', activeClassName='is-active') Help`;
 
-const AppRouter = pug`
+const AppRouter = () => pug`
   BrowserRouter
   div
     Header
